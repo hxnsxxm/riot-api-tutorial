@@ -1,1 +1,34 @@
-*.env
+# Node.js 관련
+node_modules/        # 의존성 파일들 (npm install로 복원 가능)
+npm-debug.log*       # npm 디버그 로그
+yarn-error.log       # Yarn 에러 로그
+package-lock.json    # package-lock.json을 버전 관리하지 않는 경우 (선택적)
+
+# 환경 변수 및 보안 관련
+.env                 # 환경 변수 파일
+
+# 빌드 파일 및 배포 관련
+dist/                # 빌드 결과물 디렉토리
+build/               # 빌드 결과물 디렉토리
+out/                 # 출력 디렉토리
+*.tsbuildinfo        # TypeScript 빌드 정보 파일
+
+# OS별 파일
+.DS_Store            # macOS에서 생성되는 메타데이터 파일
+Thumbs.db            # Windows에서 생성되는 미리보기 파일
+desktop.ini          # Windows 바탕화면 설정 파일
+
+# IDE 및 편집기 관련
+.idea/               # JetBrains IDE (예: WebStorm, IntelliJ)
+.vscode/             # Visual Studio Code 설정 파일
+*.swp                # Vim 임시 파일
+*.swo                # Vim 임시 파일
+*.tmp                # 임시 파일
+*.log                # 로그 파일
+*.bak                # 백업 파일
+
+# 테스트 관련
+coverage/            # 테스트 커버리지 디렉토리 (예: Jest 사용 시)
+
+# 기타
+*.cache              # 캐시 파일
