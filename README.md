@@ -11,6 +11,8 @@
 <br>
 
 ##  사전 준비
+### install nodejs
+- [nodejs 설치](https://nodejs.org/ko/download/)
 
 ### 환경 변수
 
