@@ -10,7 +10,16 @@
 
 <br>
 
-##  사전 준비
+##  사전 준비(Requirements)
+
+### 라이엇 개발자 포털에서 키 발급
+
+1. [라이엇 개발자 포털](https://developer.riotgames.com/)  
+2. Development API Key >> REGISTERED API KEY 클릭
+3. Copy API KEY
+
+주의 : 24시간 이후 재발급 필요
+
 ### install nodejs
 - [nodejs 설치](https://nodejs.org/ko/download/)
 
@@ -54,6 +63,13 @@ console.log(`Your API Key: ${riotApiKey}`);
 <br>
 
 # 2. riot api 호출 테스트
+
+- [riot/README.md](./riot/README.md)
+
+<br>
+
+
+
 
 
 # 3. riot api 정리
